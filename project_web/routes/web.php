@@ -7,4 +7,8 @@ use App\Http\Controllers\ManagementUserController;
 //Route::get('/', [ManagementUserController::class, 'index']);
 
 //untuk index di sub menu
-Route::resource('user', ManagementUserController::class);
+//Route::resource('user', ManagementUserController::class);
+
+ route::get("/home", function (){
+    return view("home");
+});
