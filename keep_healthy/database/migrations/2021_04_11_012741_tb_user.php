@@ -16,10 +16,11 @@ class TbUser extends Migration
         Schema::create('tb_user',  function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('username', '50');
+            $table->string('email', '50');
             $table->string('password', '50');
             $table->string('nama', '50');
             $table->integer('umur');
-            $table->enum('jenis_kelamin', ['pria', 'wanita']);
+            $table->string('jenis_kelamin');
         });//
     }
 
