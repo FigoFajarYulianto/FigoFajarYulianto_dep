@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class tb_admin extends Seeder
+class tb_user extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,11 +14,12 @@ class tb_admin extends Seeder
      */
     public function run()
     {
-        DB::table('tb_admin')->insert([
+        DB::table('tb_user')->insert([
             'username' => 'Bagas',
-            'password_admin' => '12345678',
-            'nama_lengkap' => 'Bagas Pratanto',
-            'foto_admin' => 'gambar.png',
-            ]);
+            'password' => '12345678',
+            'nama' => 'Bagas Pratanto',
+            'umur' => '22',
+            'jenis_kelamin' => 'pria',
+            ]);//
     }
 }
