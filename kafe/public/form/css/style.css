@@ -1,0 +1,77 @@
+.center-form {
+    margin-left:50px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .center-form {
+        margin-left:0px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .center-form {
+        margin-left:0px;
+    }
+  }
+
+
+  .center-form-consultation {
+    margin-left:50px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .center-form-consultation {
+        margin-left:0px;
+        margin-right:50px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .center-form-consultation {
+        margin-left:0px;
+        margin-right:50px;
+    }
+  }
+
+  
+.center-form-description-title {
+    margin-top: 5px; 
+    margin-left:50px;
+}
+  
+.center-form-description {
+    margin-top:15px; 
+    margin-right:39px; 
+    margin-left:80px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 450px) {
+    .center-form-description-title {
+        margin-top: 5px; 
+        margin-left:0px;
+    }
+  }
+
+@media only screen and (max-width: 450px) {
+    .center-form-description {
+        margin-top:0px; 
+        margin-right:0px; 
+        margin-left:0px;
+        width: 350px;
+    }
+  }
+
+  .center-form-description-title-judul {
+    margin-top: 10px; 
+    margin-right:66px; 
+}
+
+.center-form-judul {
+  margin-top:10px;  
+  margin-left:0px;
+  /* margin-right:100px; */
+  width: 100%;
+}
+  
+
